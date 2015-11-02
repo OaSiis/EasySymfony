@@ -1,0 +1,7 @@
+{% extends 'layout.html.twig' %}
+
+{%  block content %}
+    {# Miam #}
+    <button type="button" class="btn btn-info">Info</button>
+    <p> {{ content|default|raw }}</p>
+{% endblock %}
